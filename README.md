@@ -1,7 +1,17 @@
 # OlyU
 
-The OlyU is a variant of the Model-U designed for PhoZL and PhobGCCv2.0.3+ to allow for easier shell compatibility and USB data connection. There are 2 variants:
+The OlyU-V is a variant of the OlyU-Small (which, in turn, is a variant of the Model-U).
 
+The OlyU-V is designed for PhoZL and PhobGCCv2.0.3+ to allow for USB data connection, GCC comms, and PhobVision composite video output over a 24-pin USB C connector. 
+
+To access the PhobVision capability, you will need both a PhobGcc equipped with the OlyU-V breakout board as well as the Phongle board **(add link)** and a superspeed-capable USB C to C cable.
+
+To install the OlyU-V in a standard PhobGcc controller, follow the instructions further down on the page and in addition run a wire from the PhobVision video out pin on the PhobGcc motherboard to the pin on the OlyU-V on the end farthest from the USB port.
+
+![image](https://user-images.githubusercontent.com/95242582/215300712-6a05d7f6-3ab4-4d6f-ae4c-39f524cc35a7.png)
+
+
+## (The below images are from the OlyU for context and ordering information but are not exactly the same as the OlyU-V)
 
 ### Type 1 - OlyU-Small
 ![image](https://raw.githubusercontent.com/sean44104/OlyU/main/Images/OlyU-Small.png)
